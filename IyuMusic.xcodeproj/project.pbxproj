@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBE5F12315B7A47100C7AC56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE5F12215B7A47100C7AC56 /* UIKit.framework */; };
+		DBE5F12515B7A47100C7AC56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE5F12415B7A47100C7AC56 /* Foundation.framework */; };
+		DBE5F12715B7A47100C7AC56 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE5F12615B7A47100C7AC56 /* CoreGraphics.framework */; };
+		DBE5F12D15B7A47100C7AC56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBE5F12B15B7A47100C7AC56 /* InfoPlist.strings */; };
+		DBE5F12F15B7A47100C7AC56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE5F12E15B7A47100C7AC56 /* main.m */; };
+		DBE5F13315B7A47100C7AC56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE5F13215B7A47100C7AC56 /* AppDelegate.m */; };
+		DBE5F13615B7A47100C7AC56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE5F13515B7A47100C7AC56 /* ViewController.m */; };
+		DBE5F13915B7A47100C7AC56 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBE5F13715B7A47100C7AC56 /* ViewController_iPhone.xib */; };
+		DBE5F13C15B7A47100C7AC56 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBE5F13A15B7A47100C7AC56 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DBE5F11E15B7A47100C7AC56 /* IyuMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IyuMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBE5F12215B7A47100C7AC56 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DBE5F12415B7A47100C7AC56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DBE5F12615B7A47100C7AC56 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DBE5F12A15B7A47100C7AC56 /* IyuMusic-Info.plist */ = {isa = PBXFileReference; path = "IyuMusic-Info.plist"; sourceTree = "<group>"; };
+		DBE5F12C15B7A47100C7AC56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DBE5F12E15B7A47100C7AC56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBE5F13015B7A47100C7AC56 /* IyuMusic-Prefix.pch */ = {isa = PBXFileReference; path = "IyuMusic-Prefix.pch"; sourceTree = "<group>"; };
+		DBE5F13115B7A47100C7AC56 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		DBE5F13215B7A47100C7AC56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DBE5F13415B7A47100C7AC56 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		DBE5F13515B7A47100C7AC56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DBE5F13815B7A47100C7AC56 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		DBE5F13B15B7A47100C7AC56 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBE5F11B15B7A47100C7AC56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE5F12315B7A47100C7AC56 /* UIKit.framework in Frameworks */,
+				DBE5F12515B7A47100C7AC56 /* Foundation.framework in Frameworks */,
+				DBE5F12715B7A47100C7AC56 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBE5F11315B7A47000C7AC56 = {
+			isa = PBXGroup;
+			children = (
+				DBE5F12815B7A47100C7AC56 /* IyuMusic */,
+				DBE5F12115B7A47100C7AC56 /* Frameworks */,
+				DBE5F11F15B7A47100C7AC56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBE5F11F15B7A47100C7AC56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBE5F11E15B7A47100C7AC56 /* IyuMusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBE5F12115B7A47100C7AC56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBE5F12215B7A47100C7AC56 /* UIKit.framework */,
+				DBE5F12415B7A47100C7AC56 /* Foundation.framework */,
+				DBE5F12615B7A47100C7AC56 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBE5F12815B7A47100C7AC56 /* IyuMusic */ = {
+			isa = PBXGroup;
+			children = (
+				DBE5F13115B7A47100C7AC56 /* AppDelegate.h */,
+				DBE5F13215B7A47100C7AC56 /* AppDelegate.m */,
+				DBE5F13415B7A47100C7AC56 /* ViewController.h */,
+				DBE5F13515B7A47100C7AC56 /* ViewController.m */,
+				DBE5F13715B7A47100C7AC56 /* ViewController_iPhone.xib */,
+				DBE5F13A15B7A47100C7AC56 /* ViewController_iPad.xib */,
+				DBE5F12915B7A47100C7AC56 /* Supporting Files */,
+			);
+			path = IyuMusic;
+			sourceTree = "<group>";
+		};
+		DBE5F12915B7A47100C7AC56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBE5F12A15B7A47100C7AC56 /* IyuMusic-Info.plist */,
+				DBE5F12B15B7A47100C7AC56 /* InfoPlist.strings */,
+				DBE5F12E15B7A47100C7AC56 /* main.m */,
+				DBE5F13015B7A47100C7AC56 /* IyuMusic-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBE5F11D15B7A47100C7AC56 /* IyuMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBE5F13F15B7A47100C7AC56 /* Build configuration list for PBXNativeTarget "IyuMusic" */;
+			buildPhases = (
+				DBE5F11A15B7A47100C7AC56 /* Sources */,
+				DBE5F11B15B7A47100C7AC56 /* Frameworks */,
+				DBE5F11C15B7A47100C7AC56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IyuMusic;
+			productName = IyuMusic;
+			productReference = DBE5F11E15B7A47100C7AC56 /* IyuMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBE5F11515B7A47000C7AC56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = DBE5F11815B7A47000C7AC56 /* Build configuration list for PBXProject "IyuMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DBE5F11315B7A47000C7AC56;
+			productRefGroup = DBE5F11F15B7A47100C7AC56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBE5F11D15B7A47100C7AC56 /* IyuMusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBE5F11C15B7A47100C7AC56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE5F12D15B7A47100C7AC56 /* InfoPlist.strings in Resources */,
+				DBE5F13915B7A47100C7AC56 /* ViewController_iPhone.xib in Resources */,
+				DBE5F13C15B7A47100C7AC56 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBE5F11A15B7A47100C7AC56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE5F12F15B7A47100C7AC56 /* main.m in Sources */,
+				DBE5F13315B7A47100C7AC56 /* AppDelegate.m in Sources */,
+				DBE5F13615B7A47100C7AC56 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBE5F12B15B7A47100C7AC56 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBE5F12C15B7A47100C7AC56 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DBE5F13715B7A47100C7AC56 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBE5F13815B7A47100C7AC56 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		DBE5F13A15B7A47100C7AC56 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBE5F13B15B7A47100C7AC56 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBE5F13D15B7A47100C7AC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBE5F13E15B7A47100C7AC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBE5F14015B7A47100C7AC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IyuMusic/IyuMusic-Prefix.pch";
+				INFOPLIST_FILE = "IyuMusic/IyuMusic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DBE5F14115B7A47100C7AC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IyuMusic/IyuMusic-Prefix.pch";
+				INFOPLIST_FILE = "IyuMusic/IyuMusic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBE5F11815B7A47000C7AC56 /* Build configuration list for PBXProject "IyuMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBE5F13D15B7A47100C7AC56 /* Debug */,
+				DBE5F13E15B7A47100C7AC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBE5F13F15B7A47100C7AC56 /* Build configuration list for PBXNativeTarget "IyuMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBE5F14015B7A47100C7AC56 /* Debug */,
+				DBE5F14115B7A47100C7AC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBE5F11515B7A47000C7AC56 /* Project object */;
+}
