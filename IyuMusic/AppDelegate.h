@@ -7,13 +7,28 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Flurry.h"
+#import "MusicView.h"
 
-@class ViewController;
+@interface AppDelegate : UIResponder <UIApplicationDelegate,UIScrollViewDelegate>
+{
+    UIView *myView;
+    UIWindow *windowOne;
+    UITabBarController *rootControllerOne;
+    UIWindow *windowTwo;
+    UITabBarController *rootControllerTwo;
+    UIScrollView *scrollView;
+    UIPageControl *pageControl;
+    NSUInteger numOfPages;
+    
+    BOOL pageControlUsed;
+}
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@property (retain,nonatomic)  UIWindow *windowOne;
+@property (retain,nonatomic) IBOutlet UIWindow *windowTwo;
+@property (retain,nonatomic) IBOutlet UITabBarController *rootControllerOne;
+@property (retain,nonatomic) IBOutlet UITabBarController *rootControllerTwo;
 
-@property (strong, nonatomic) UIWindow *window;
-
-@property (strong, nonatomic) ViewController *viewController;
+void uncaughtExceptionHandler(NSException *exception);
 
 @end
